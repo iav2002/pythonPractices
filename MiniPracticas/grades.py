@@ -7,7 +7,7 @@ student_scores = {
 }
 student_grades = {}
 
-#TODO-2: Write your code below to add the grades to student_grades.👇
+#TODO-2: Manipulacion de Cambion de valores en un hashmap.👇
 for student in student_scores:
     score = student_scores[student]
     if score  > 90:
@@ -18,9 +18,6 @@ for student in student_scores:
         student_grades[student] = "Acceptable"
     else: 
          student_grades[student] = "Fail"
-         
-
-
 
 # 🚨 Don't change the code below 👇
 print(student_grades)
