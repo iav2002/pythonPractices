@@ -5,5 +5,6 @@ Escaling difficulty in each mini project,
 - Rock, paper, scissors
 - Password Generator
 - Hangman Game
+- Cesas Cipher
 - BlackJack
 - 

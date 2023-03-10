@@ -2,11 +2,11 @@ from replit import clear
 from art import logo
 print(logo)
 
-bids = {}
-bidding_finished = False
+bids = {} #creamos inicialmente hashmap
+bidding_finished = False #boolen para poder cortar el loop eventualmente
 
-def find_highest_bidder(bidding_record):
-  highest_bid = 0
+def find_highest_bidder(bidding_record): #encontrar el bidder mas alto
+  highest_bid = 0 #donde guardamos la mayor 
   winner = ""
   # bidding_record = {"Angela": 123, "James": 321}
   for bidder in bidding_record:
