@@ -6,5 +6,6 @@ Escaling difficulty in each mini project,
 - Password Generator
 - Hangman Game
 - Cesas Cipher
+- Calculator
 - BlackJack
 - 
