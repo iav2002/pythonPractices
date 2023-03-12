@@ -8,4 +8,3 @@ Escaling difficulty in each mini project,
 - Cesas Cipher
 - Calculator
 - BlackJack
-- 
