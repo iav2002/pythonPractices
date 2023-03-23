@@ -38,8 +38,6 @@ for _ in range(10):
     t.setheading(0)
 
 
-
-
 #girar hacia la izquierda y repetir
 
 
