@@ -11,9 +11,9 @@ class Paddle(Turtle): #Creacion de la clase junto con la herencia de la libreria
         self.goto(position)
     def go_up(self):
 
-        if self.ycor() > 300:
-            new_y = self.ycor() + 20
-            self.goto(self.xcor(), new_y)
+        
+        new_y = self.ycor() + 20
+        self.goto(self.xcor(), new_y)
 
     def go_down(self):
         new_y = self.ycor() - 20
