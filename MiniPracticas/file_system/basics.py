@@ -7,6 +7,3 @@ with open("/Users/ignacioalarconvarela/VsCode_Python/MiniPracticas/file_system/m
 
 with open("/Users/ignacioalarconvarela/VsCode_Python/MiniPracticas/file_system/my_file.txt", mode = "a") as file: #Appeding strings to our file
     file.write("\nNew text.") 
-
-
-    failure
