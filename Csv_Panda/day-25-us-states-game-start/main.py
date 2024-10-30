@@ -11,7 +11,7 @@ data = pd.read_csv("day-25-us-states-game-start/50_states.csv")
 state_list = data["state"].to_list()
 
 guessed_states = []
-missing_states = []
+
 
 while len(guessed_states) < 50:
 
@@ -20,12 +20,12 @@ while len(guessed_states) < 50:
     print(answer_state)
     
     if answer_state == "Exit":
-       
-        for state in state_list:
-            if state not in guessed_states:
-                missing_states.append(state)          
-        
-        print(missing_states)        
+        #Same as a 4 lines but in a comprenhension list
+        missing_states = [state for state in list  if state not in guessed_states]
+        # missing_states = []
+        # for state in state_list:
+        #     if state not in guessed_states:
+        #         missing_states.append(state)                  
         new_data = pd.DataFrame(missing_states)
         new_data.to_csv("day-25-us-states-game-start/states_to_learn.csv")
         break  

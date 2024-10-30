@@ -2,7 +2,7 @@ import turtle
 import pandas as pd
 
 screen = turtle.Screen()
-screen.title("U.S. States Game")
+screen.title("Ireland Counties")
 image = "countyCounter/ireland-blank-map.gif"
 screen.addshape(image)
 turtle.shape(image)

@@ -8,6 +8,7 @@ Escalating difficulty in each mini project,
 - OOP
 - Indentation rules
 - Importing Libraries
+
 ### Examples
 
 - Rock, paper, scissors
